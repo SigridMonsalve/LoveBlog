@@ -1,0 +1,17 @@
+@mixin button($bg,$color){
+	padding:10px 15px;
+	background:$bg;
+	color:$color;
+}
+@mixin bgRepeat($url){
+	background:$url;
+	background-repeat:repeat;
+	span{
+			color:$heavyRed;
+			background:white;
+			padding:5px 30px 5px 0;
+		}
+}
+@mixin pdRight($pd){
+	padding-right:$pd;
+}

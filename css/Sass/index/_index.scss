@@ -1,0 +1,30 @@
+.service_area{
+	a{@include button($heavyRed,$white);
+	}
+	h3{
+		width:75%;
+		display:inline-block;
+		font-weight:lighter;
+		color:$heavyRed;
+		margin-bottom:0px;
+	}
+	i{
+		font-size:3.5em;
+		color:$heavyRed;
+		display:inline-block;
+		vertical-align:text-middle;
+		margin-right:10px;
+	}
+}
+.from_blog,.service_area{
+	margin-top:20px;
+}
+.from_blog,.from_works{
+	.s12{
+		h3{@include bgRepeat(url(../images/heading-bg.png));
+		}
+	}
+	h5{
+			color:$grey;
+		}
+}
